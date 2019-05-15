@@ -69,11 +69,8 @@ nav {
 @media only screen and (max-width: 480px) {
     .parallax {
         background-image: url('images/parallax.png');
-        height: 100vh; 
+        background-size: 850px 400px;
         background-attachment: scroll;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .outerDiv{
         width: 100%;
