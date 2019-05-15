@@ -17,7 +17,7 @@ body, html{
     background-size: cover;
 }
 nav {
-    opacity: 0.95;
+    opacity: 0.85;
 }
 .projBtn{
     background-color: #ff0044;
@@ -32,8 +32,10 @@ nav {
     }
     .myInfo{
         display: inline-block;
-        width: 40%;
-        margin-left: 20px;
+        width: 45%;
+    }
+    .baseInfo{
+        width: 90%;
     }
     .contactNav{
         width: 40%;
@@ -79,6 +81,9 @@ nav {
     }
     .myInfo{
         display: block;
+        width: 100%;
+    }
+    .baseInfo{
         width: 100%;
     }
     .contactNav{

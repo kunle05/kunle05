@@ -45,18 +45,20 @@
         <div class="container outerDiv text-center">
             <h1 class="display-4 mt-5">About me</h1>
             <h3 class="mb-5">Call me Kunle! alot easier for both of us &#128526;</h3>
-            <div class="container text-justify myInfo">
-                <p>I am a highly motivated web developer who enjoys building beautiful yet sophisticated web applications. I have had a love for programming since high school. I joined the Coding Dojo bootcamp to begin my journey to transform my passion for software development into a fulfilling career which I have come to appreciate and hope to continue.
-                </p>
+            <div class="container">
+                <div class="container text-justify myInfo">
+                    <p>I am a highly motivated web developer who enjoys building beautiful yet sophisticated web applications. I have had a love for programming since high school. I joined the Coding Dojo bootcamp to begin my journey to transform my passion for software development into a fulfilling career which I have come to appreciate and hope to continue.
+                    </p>
+                </div>
+                <div class="container align-top text-justify myInfo">
+                    <p>Over the past few months, I have built some really cool project using MEAN with socket, Python with Flask and Django, and C# with Dapper and Entity Entity frameworks.</p>
+                </div>
+                <div class="container text-justify baseInfo">
+                    <p class="font-weight-bold">I am currently seeking an oppurtunity where i can be most creative alongside use my knowledge and technical abilities to solve unique and interesting problems while learning and growing as a web developer.</p>
+                </div>
+            
+                <a target="_blank" class="btn btn-lg btn-outline-success mt-5 mb-5" href="https://github.com/kunle05"> <i class="fab fa-github"></i> Checkout My Github</a>
             </div>
-            <div class="container align-top text-justify myInfo">
-                <p>Over the past few months, I have built some really cool project using MEAN with socket, Python with Flask and Django, and C# with Dapper and Entity Entity frameworks.</p>
-            </div>
-            <div class="container col-10 text-justify">
-                <p class="ml-3 font-weight-bold">I am currently seeking an oppurtunity where i can be most creative alongside use my knowledge and technical abilities to solve unique and interesting problems while learning and growing as a web developer.</p>
-            </div>
-        
-            <a target="_blank" class="btn btn-lg btn-outline-success mt-5" href="https://github.com/kunle05"> <i class="fab fa-github"></i> Checkout My Github</a>
         </div>
     </section>
 
@@ -121,7 +123,9 @@
 
     <section id="contact">
         <div class="container outerDiv">
-            <h1 class="display-4 mt-5 mb-5">Contact Me</h1>
+            <h1 class="display-4 mt-5">Contact Me</h1>
+            <p class="m-0 font-italic">If you have any questions, comments about any of my work, or just want to say hi, I'd love to hear from you.</p>
+            <p class="mb-5 font-italic">I would also love to hear about oppurtunities to put my skills to work </p>
             <div class="container contactNav align-top">
                 <h5 class="mb-4">
                     <a target="_blank" href="https://github.com/kunle05" class="text-success">
@@ -154,7 +158,7 @@
             </div>
             <div class="container formNav">
                 <div id="err" class="text-danger"></div>
-                <form id="contact-form">
+                <form method="POST" action="formspree.io/info@kunleyusuf.com">
                     <div class="form-group">
                         <label for="name" class="font-weight-bold">Name</label>
                         <input class="form-control" name="name" id="inputName" type="text">
