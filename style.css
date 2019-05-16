@@ -5,8 +5,16 @@ body, html{
 .topLink{
     color: #48E5C2;
 }
+.topLink:hover {
+    color: #ffff00;
+    text-decoration-line: none
+}
 .bodyLink{
     color: black;
+}
+.bodyLink:hover {
+    color: #ff0044;
+    text-decoration-line: none
 }
 footer{
     margin-top: 90px;

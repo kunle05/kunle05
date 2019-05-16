@@ -1,17 +1,4 @@
 $(document).ready(function(){
-    $('.topLink').hover(function(){
-        $(this).css({'color': "#ffff00", "text-decoration-line": 'none'})
-    },
-    function(){
-        $(this).css('color', "#48E5C2")         
-    });
-    $('.bodyLink').hover(function(){
-        $(this).css({"color": "#ff0044", "text-decoration-line": 'none'})
-    },
-    function(){
-        $(this).css('color', "black")         
-    });
-
     $('.name').hover(function(){
         $(this).html('OLAKUNLE YUSUF')
     },
