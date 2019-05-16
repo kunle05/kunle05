@@ -23,7 +23,6 @@ $(document).ready(function(){
     });
 
     $('#contact-form').submit(function(e){
-        e.preventDefault();
         var errors = [];
         $('#err').html("");
         var data = {
@@ -43,11 +42,12 @@ $(document).ready(function(){
                     errors.push("Invalid Email Address")
                 }
             }
-            if(data[x].length < 2){
+            if(data[x].length < 2 && x!="contact phone"){
                 errors.push(`Please provide ${x}`)
             }
         }
         if(errors.length > 0){
+            e.preventDefault();
             for(var i = 0; i < errors.length; i++){
                 $('#err').append(
                ` <p class="m-0">${errors[i]}</p>`
@@ -55,12 +55,6 @@ $(document).ready(function(){
             }  
         }
         else{
-            $.ajax({
-                method: "post",
-                url: "https://formspree.io/info@kunleyusuf.com",
-                data : $(this).serialize(),
-                dataType: "json"
-            });
             $(this).get(0).reset()
             alert("Message Sent");
         }

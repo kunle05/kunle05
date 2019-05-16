@@ -8,6 +8,9 @@ body, html{
 .bodyLink{
     color: black;
 }
+footer{
+    margin-top: 90px;
+}
 .parallax {
     background-image: url('images/mypage.jpeg');
     height: 100vh; 
