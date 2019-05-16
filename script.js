@@ -21,6 +21,9 @@ $(document).ready(function(){
     $('.navbar-nav>li>h3').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     });
+    $('#contact').mouseleave(function(){
+        $('#err').html("");
+    })
 
     $('#contact-form').submit(function(e){
         var errors = [];
@@ -55,8 +58,9 @@ $(document).ready(function(){
             }  
         }
         else{
-            $(this).get(0).reset()
+            $(this).submit();
             alert("Message Sent");
+            $(this).get(0).reset()
         }
     })
 
