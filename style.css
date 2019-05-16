@@ -132,4 +132,7 @@ nav {
         background-size: 500px 400px;
         background-position: top;
     }
+    .name{
+        font-size: 24px;
+    }
 }
