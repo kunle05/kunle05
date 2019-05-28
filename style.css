@@ -9,11 +9,19 @@ body, html{
     color: #ffff00;
     text-decoration-line: none
 }
-.bodyLink{
-    color: black;
+.otherBtn{
+    color: #48E5C2;
 }
-.bodyLink:hover {
-    color: #ff0044;
+.otherBtn:hover{
+    color: #00284d;
+    text-decoration-line: none
+}
+.bodyBtn:hover{
+    color: #00284d;
+}
+.bodyBtn {
+    background: #48E5C2;
+    color: white;
     text-decoration-line: none
 }
 footer{
@@ -30,16 +38,12 @@ footer{
 nav {
     opacity: 0.85;
 }
-.projBtn{
-    background-color: #ff0044;
-    color: white;
-}
 
 @media only screen and (min-width: 480px){
     .outerDiv{
         width: 80%;
         padding-top: 30px;
-        min-height: 100vh;
+        margin-bottom: 120px;
     }
     .myInfo{
         display: inline-block;
@@ -62,8 +66,8 @@ nav {
         left: 75%;
     }
     .d-inline img{
-        width: 132px;
-        margin: 0%;
+        width: 112px;
+        margin: 5px;
     }
     .project{
         display: inline-block;
@@ -111,7 +115,7 @@ nav {
     }
     .d-inline img{
         width: 52px;
-        margin: 0%;
+        margin: 5px;
     }
     .project{
         width: 100%;
